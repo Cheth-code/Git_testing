@@ -1,0 +1,28 @@
+rag_unit_tests:
+
+  - id: finops_multi_1
+    conversation_key: finops_intro
+    turn_index: 1
+    input_query: >
+      What is FinOps?
+
+    ground_truth_answer: >
+      FinOps is a cultural practice that brings finance, engineering, and business
+      teams together to manage cloud costs effectively.
+
+    evaluation:
+      threshold: 0.4
+
+
+  - id: finops_multi_2
+    conversation_key: finops_intro
+    turn_index: 2
+    input_query: >
+      Why is shared accountability important in FinOps?
+
+    ground_truth_answer: >
+      Shared accountability ensures teams that consume cloud resources are also
+      responsible for managing and optimizing their costs.
+
+    evaluation:
+      threshold: 0.4

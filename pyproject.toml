@@ -1,0 +1,24 @@
+[project]
+name = "learn-langsmith"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "deepeval>=3.8.0",
+    "dotenv>=0.9.9",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.7",
+    "langchain-text-splitters>=1.1.0",
+    "lxml>=6.0.2",
+    "nest-asyncio>=1.6.0",
+    "openai>=2.15.0",
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+    "pytest>=9.0.2",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.7.2",
+]
+[tool.pytest.ini_options]
+pythonpath = ["."]
